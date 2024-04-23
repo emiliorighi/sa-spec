@@ -9,10 +9,11 @@
                "type":"string"
             },
             "location":{
-               "$ref":"https://raw.githubusercontent.com/ga4gh/vrs/main/schema/vrs.json#definitions/Location"
+               "$ref":"https://w3id.org/ga4gh/schema/vrs/2.x/json/SequenceLocation" #may not resolve just yet
             },
-            "seqOntologyRef":{
-               "type":"string"
+            "type":{ 
+               "type":"string" #http://purl.obolibrary.org/obo/SO_0000147 rdfs:label"exon"
+               https://w3id.org/ga4gh/schema/gks-common/1.x/json/Coding
             }
          },
          "required": [
@@ -44,7 +45,7 @@
                   ]
                }
             },
-            "strand":{
+            "strand":{ #is this the right place for strand? What other features need strand? Relevance to VRS adjacency modeling?
                "type":"string",
                "enum":[
                   "+",

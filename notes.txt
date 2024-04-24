@@ -1,0 +1,6 @@
+
+http://purl.obolibrary.org/obo/SO_0000147 rdfs:label"exon"
+
+https://w3id.org/ga4gh/schema/gks-common/1.x/json/Coding
+
+is this the right place for strand? What other features need strand? Relevance to VRS adjacency modeling?
